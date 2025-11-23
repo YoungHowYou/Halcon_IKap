@@ -100,6 +100,7 @@ target_include_directories(${ProjectName}
 target_link_libraries(${ProjectName} 
     ${HALCON_LIB_DIR}/halconcpp.lib
     #往后增加3方库的lib文件
-    ${CMAKE_CURRENT_SOURCE_DIR}/3rd/IKap/lib/win64/MvCameraControl.lib
+    ${CMAKE_CURRENT_SOURCE_DIR}/3rd/IKap/lib/X64/IKapBoard.lib
+    ${CMAKE_CURRENT_SOURCE_DIR}/3rd/IKap/lib/X64/IKapC.lib
 )
 
