@@ -2,7 +2,7 @@
 #include "Halcon_IKap.h"
 #include "HalconCpp.h"
 #include "IKapBoard.h"
-#define H_IKapCamera_TAG 0xC0FFEE11
+#define H_IKapCamera_TAG 0xC0FFEE31
 #define H_IKapCamera_SEM_TYPE "IKapCamera"
 using namespace HalconCpp;
 
